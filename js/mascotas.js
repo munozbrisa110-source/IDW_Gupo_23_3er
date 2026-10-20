@@ -59,7 +59,7 @@ function render() {
         //Verifica si la mascota tiene una foto y la muestra
         //Si no, indica "Sin foto"
         const imagen = mascota.imagenMascota
-            ? `<img src="${mascota.imagenMascota}" alt="Foto de ${mascota.nombreMascota}" width="70" height="35" class="object-fit-cover">`
+            ? `<img src="${mascota.imagenMascota}" alt="Foto de ${mascota.nombreMascota}" width="60" height="35" class="object-fit-cover">`
             : "Sin foto";
 
         tablaMascotas.innerHTML += `<tr>
