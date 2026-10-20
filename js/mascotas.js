@@ -59,7 +59,7 @@ function render() {
         //Verifica si la mascota tiene una foto y la muestra
         //Si no, indica "Sin foto"
         const imagen = mascota.imagenMascota
-            ? `<img src="${mascota.imagenMascota}" alt="Foto de ${mascota.nombreMascota}" width="70" height="30" class="object-fit-cover">`
+            ? `<img src="${mascota.imagenMascota}" alt="Foto de ${mascota.nombreMascota}" width="70" height="35" class="object-fit-cover">`
             : "Sin foto";
 
         tablaMascotas.innerHTML += `<tr>
@@ -70,12 +70,12 @@ function render() {
             <td>${mascota.peso}</td>
             <td>${imagen}</td>
             <td>
-                <button class="btn btn-warning btn-sm me-1 mb-1"
+                <button class="btn btn-warning btn-sm me-1"
                     onclick="editarMascota('${mascota.idMascota}')">
                     Editar
                 </button>
 
-                <button class="btn btn-danger btn-sm mb-1"
+                <button class="btn btn-danger btn-sm"
                     onclick="eliminarMascota('${mascota.idMascota}')">
                     Eliminar
                 </button>
