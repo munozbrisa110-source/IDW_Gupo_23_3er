@@ -46,4 +46,37 @@
     color: var(--color-violeta-claro1);
 }
 
+/* Tabla de mascotas */
+main {
+    min-width: 0;
+}
+
+.tabla-mascotas table {
+    min-width: 700px;
+}
+
+.tabla-mascotas td {
+    padding-block: 0.25rem;
+}
+
+.tabla-mascotas td:nth-child(6) {
+    padding-inline: 0.25rem;
+}
+
+.tabla-mascotas td:nth-child(6) img {
+    display: block;
+    object-fit: cover;
+    object-position: center 20%;  /*ajusta la posición de la imagen*/
+    margin: 0 auto;
+}
+
+.tabla-mascotas td:last-child {
+    width: 1%;
+    white-space: nowrap;
+    padding-inline: 0.25rem;
+}
+.tabla-mascotas .btn {
+    min-width: 75px;
+}
+
 
