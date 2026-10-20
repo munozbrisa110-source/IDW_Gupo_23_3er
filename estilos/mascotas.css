@@ -53,6 +53,7 @@ main {
 
 .tabla-mascotas table {
     min-width: 700px;
+    border-style: hidden;
 }
 
 .tabla-mascotas td {
