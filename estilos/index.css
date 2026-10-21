@@ -23,6 +23,16 @@ main{
 
 .boton-logo {
     background-color: var(--color-violeta-oscuro3);
+    color: #ffffff;
+    border: none;
+}
+
+.boton-logo:hover,
+.boton-logo:focus,
+.boton-logo:active {
+    background-color: var(--color-violeta-oscuro3);
+    color: #ffffff; 
+    opacity: 0.9; 
 }
 .boton-logo-claro{
     background-color: var(--color-violeta-claro1);

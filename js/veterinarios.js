@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <td><strong>${v.matricula}</strong></td>
         <td>${v.nombre}</td>
         <td><span class="badge bg-secondary">${v.especializacion}</span></td>
-        <td class="fw-bold text-success">${precioFormateado}</td>
+        <td class="fw-bold text-light-emphasis">${precioFormateado}</td>
         <td class="text-center">
           <button class="btn btn-warning btn-sm me-1" onclick="abrirEditar('${v.idVeterinario}')">
             Editar
