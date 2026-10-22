@@ -1,6 +1,3 @@
-// si hay datos en el localStorage
-// en mascotas pongo el dato que traigo de ahí
-// y si no hay datos a mascotas le asigno un array vacio
 const mascotas = JSON.parse(localStorage.getItem("mascotas")) || [];
 
 const tablaMascotas = document.getElementById("tablaMascotas");
