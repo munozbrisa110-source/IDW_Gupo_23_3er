@@ -70,12 +70,12 @@ function render() {
             <td>${mascota.peso}</td>
             <td>${imagen}</td>
             <td>
-                <button class="btn btn-warning btn-sm me-1"
+                <button class="btn btn-warning btn-sm me-1 mb-1 mb-sm-0 d-block d-sm-inline-block"
                     onclick="editarMascota('${mascota.idMascota}')">
                     Editar
                 </button>
 
-                <button class="btn btn-danger btn-sm"
+                <button class="btn btn-danger btn-sm d-block d-sm-inline-block"
                     onclick="eliminarMascota('${mascota.idMascota}')">
                     Eliminar
                 </button>
